@@ -182,7 +182,6 @@ if ( ! class_exists( 'TCPSkeletonLoader' ) ) {
 					'pg_lifetime'			=> isset($this->payment_params->lifetime)?$this->payment_params->lifetime*60:0,
 					'pg_testing_mode'		=> ($data['platron_demo_mode'] == 'yes')?1:0,
 					'pg_description'		=> $strDescription,
-					'pg_user_ip'			=> $_SERVER['REMOTE_ADDR'],
 					'pg_language'			=> (WPLANG == 'ru_RU')?'ru':'en',
 					'pg_check_url'			=> $strNotifyUrl,
 					'pg_result_url'			=> $strNotifyUrl,
