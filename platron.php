@@ -1,11 +1,11 @@
 <?php
 /**
-Plugin Name: TheCartPress - Platron Payment Gateway
-Plugin URI: http://www.platron.ru
-Description: Integrate your Platron payment gateway with TheCartPress.
-Version: 2.0
-Author:  Platron
-Author URI: http://www.platron.ru
+* Plugin Name: TheCartPress - Platron Payment Gateway
+* Plugin URI: http://www.platron.ru
+* Description: Integrate your Platron payment gateway with TheCartPress.
+* Version: 2.0
+* Author:  Platron
+* Author URI: http://www.platron.ru
 */
 
 if ( !defined( 'ABSPATH' ) ) exit;
